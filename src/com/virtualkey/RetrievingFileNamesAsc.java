@@ -22,11 +22,11 @@ public class RetrievingFileNamesAsc {
 	}
 	
 	public static void retrievingFileNamesAscendingOrder() {
-		Scanner in = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
 		//Taking the Directory as input from the user
 		System.out.print("Enter the complete directory path: ");
-		String pathDir = in.nextLine();
+		String pathDir = input.nextLine();
 		
 		File path = new File(pathDir);
 		//Checking for the path is absolute and it is directory
@@ -49,7 +49,7 @@ public class RetrievingFileNamesAsc {
 			System.out.println("----------------------------------------");
 			//Asking user to continue with another directory or exit
 			System.out.print("Continue with another one (1/0): ");
-			if(in.nextInt() == 1){
+			if(input.nextInt() == 1){
 				retrievingFileNamesAscendingOrder();
 			}
 			else {
