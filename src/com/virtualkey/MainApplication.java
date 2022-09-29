@@ -49,6 +49,8 @@ public class MainApplication {
 					//Exiting from the Application
 					System.exit(0);
 					break;
+			default:
+					System.out.println("You selected the wrong option");
 			}
 			
 		}while(true);
