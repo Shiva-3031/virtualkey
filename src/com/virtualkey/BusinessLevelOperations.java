@@ -122,6 +122,8 @@ public class BusinessLevelOperations {
 						break;
 				case 4:
 						return;
+				default:
+						System.out.println("Entered the wrong options");
 				}
 			}
 			else {
