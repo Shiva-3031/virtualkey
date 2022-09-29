@@ -53,7 +53,6 @@ public class RetrievingFileNamesAsc {
 				retrievingFileNamesAscendingOrder();
 			}
 			else {
-				in.close();
 				return;
 			}
 			
@@ -65,6 +64,5 @@ public class RetrievingFileNamesAsc {
 			System.out.println("----------------------------------------");
 			retrievingFileNamesAscendingOrder();
 		}
-		in.close();
 	}
 }
